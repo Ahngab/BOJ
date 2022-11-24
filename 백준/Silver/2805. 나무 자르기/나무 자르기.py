@@ -1,3 +1,5 @@
+#while True 보통 쓰면 time exceed 뜨니깐 while문에 조건 달아야함.
+#이분탐색 문제인듯
 import sys
 
 N, need = map(int, sys.stdin.readline().split())
