@@ -1,7 +1,8 @@
-data = list(input())
-queue = []
-result = []
 queue_flag = False
+queue      = []
+result     = []
+
+data = list(input())
 
 for i in range(len(data)):
     if data[i] == "<":
@@ -11,7 +12,7 @@ for i in range(len(data)):
         queue = []
         queue.append("<")
         queue_flag = True
-
+        
     elif data[i] == ">":
         queue.append(data[i])
         for j in queue:
