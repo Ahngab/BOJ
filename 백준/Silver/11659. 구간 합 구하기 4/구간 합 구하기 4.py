@@ -2,7 +2,7 @@ import sys
 from collections import deque
 
 M , N = map(int, sys.stdin.readline().strip().split())
-arr = deque(map(int, sys.stdin.readline().strip().split()))
+arr = list(map(int, sys.stdin.readline().strip().split()))
 temp = [0] * (M+1)
 
 for i in range(M):
